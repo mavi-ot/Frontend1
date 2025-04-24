@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(100, 23, 23);
+}
+
+.titulo{
+    color: rgb(168, 66, 66);
+}
+h1{
+    color: rgb(194, 144, 5);
+}
+
+h1 {background-color: rgb(116, 54, 54);}
+
+
+section {
+    color: rgb(168, 66, 66);
+}
+
+
+img{
+    height: 300px;
+}
+
+
+ul{
+    color: rgb(194, 144, 5);
+}
+
+a{
+    color: rgb(187, 4, 4);
+    text-decoration: none;
+}

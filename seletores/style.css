@@ -1,8 +1,42 @@
-.titulo-principal {
-    margin-bottom: 20px;
-    color: blue;
+.titulo-principal{
+    margin-bottom: 20px; 
+    color: rgb(133, 27, 36);
 }
-
 .destaque{
-    
+    color: rgba(145, 11, 40, 0.829); 
+    background-color: rgb(230, 133, 133)
+}
+#especial{
+    font-style: italic; 
+    border-left: 3px solid rgb(247, 140, 145); 
+    padding-left: 5px;
+}
+.paragrafo-comum{
+    line-height: 1.6;
+}
+.bloco-um{
+    p{
+        background-color: rgb(248, 163, 184);
+    }
+    .titulo-bloco{
+        border-bottom: 2px solid rgb(233, 95, 102);
+    }
+}
+.bloco-dois{
+    p{padding: 10px;}
+
+    .titulo-bloco{
+        font-family: Arial, sans-serif;
+    }
+}
+.lista-itens{
+    .item{
+        margin-bottom: 5px;
+    }
+    .item destaque{
+        background-color: rgb(247, 64, 64);
+    }
+    .ultimo-item{
+        color: darkred;
+    }
 }
