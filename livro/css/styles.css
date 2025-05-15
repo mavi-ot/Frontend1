@@ -1,3 +1,29 @@
+header {
+    header {
+        background-color: rgb(127, 63, 187);
+        position: sticky;
+        top: 0;
+        border-radius: 10px;
+    }
+    
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        padding: 1rem;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        text-decoration: none;
+        color: #4a0d7c;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+}
+
 div {
     background-color: #f5f5f5;
     padding: 50px;
@@ -22,7 +48,7 @@ h3 {
     font-size: 20px;
     font-family: 'Tahoma';
 }
-a {
+.comprar {
     background-color: green;
     font-size: 14px;
     font-weight: bold;
