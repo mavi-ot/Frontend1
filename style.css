@@ -6,6 +6,17 @@ body{
     color:  rgb(127, 63, 187);
 }
 
+.movimento {
+    color: rgb(104, 6, 150);
+    font-size: 19px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.movimento:hover{
+    color: rgb(68, 5, 87);
+}
+
 h1 {
     background-color: rgb(104, 6, 150);
     text-align: center;
@@ -36,3 +47,4 @@ header nav ul li a {
     border-radius: 4px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
