@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(100, 23, 23);
+}
+
+.titulo{
+    color: rgb(168, 66, 66);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+
+h1 {background-color: rgb(116, 54, 54);
+}
+
+
+section {
+    color: rgb(168, 66, 66);
+}
+
+
+img{
+    height: 300px;
+}
+
+a{
+    color: rgb(187, 4, 4);
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(117, 24, 32);
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:  rgb(194, 144, 5);;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;}
