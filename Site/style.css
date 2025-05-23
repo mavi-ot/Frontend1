@@ -1,52 +1,75 @@
-body{
-    background-color: rgb(100, 23, 23);
-}
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-.titulo{
-    color: rgb(168, 66, 66);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-align: center;
-}
+        header {
+            background-color: #740001; /* Vermelho Grifinória */
+            color: #ffc90d; /* Dourado Grifinória */
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
 
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
 
-h1 {background-color: rgb(116, 54, 54);
-}
+        nav {
+            background-color: #ae0001; /* Vermelho mais escuro */
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
+        nav a {
+            color: #ffc90d;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
-section {
-    color: rgb(168, 66, 66);
-}
+        nav a:hover,
+        nav a.active {
+            background-color: #d3a625; /* Dourado mais escuro */
+            color: #740001;
+        }
 
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-img{
-    height: 300px;
-}
+        .tab-content {
+            display: none;
+            padding: 20px 0;
+            line-height: 1.6;
+        }
 
-a{
-    color: rgb(187, 4, 4);
-    text-decoration: none;
-}
+        .tab-content.active {
+            display: block;
+        }
 
-header {
-    background-color: rgb(117, 24, 32);
-    position: sticky;
-    top: 0;
-    border-radius: 10px;
-}
+        .tab-content h2 {
+            color: #740001;
+            margin-bottom: 15px;
+        }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    padding: 1rem;
-    justify-content: center;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color:  rgb(194, 144, 5);;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, transform 0.2s ease;}
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #740001;
+            color: #ffc90d;
+            font-size: 0.9em;
+        }

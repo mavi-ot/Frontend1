@@ -1,5 +1,7 @@
 body{
     background-color: rgb(68, 5, 87);
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .titulo{
@@ -29,6 +31,10 @@ header {
     position: sticky;
     top: 0;
     border-radius: 10px;
+}
+
+.container h1 {
+    color: rgb(144, 70, 194);
 }
 
 header nav ul {
@@ -79,7 +85,7 @@ header nav ul li a {
     color: #290730;
 }
 
-/* Seção Contato */
+
 #contato {
     background-color:  rgb(127, 63, 187);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -103,20 +109,22 @@ header nav ul li a {
     color: #05284a;
 }
 
-/* Footer */
+
 footer {
     background-color:  rgb(127, 63, 187);
     color: #fff;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 footer p {
     font-size: 0.9rem;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
