@@ -1,0 +1,145 @@
+        body {
+        background: linear-gradient(#4a0304, #a92630);
+        color: #fff;
+        min-height: 170vh;
+        }
+
+        header {
+        background-color: #740001;
+        padding: 1rem;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        }
+
+        header h1 {
+        font-size: 2.5rem;
+        color: #ffc500;
+        animation: fadeInDown 2s ease;
+        }
+
+        header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1.5rem;
+        padding: 1rem;
+        justify-content: center;
+        background-color: #660202;
+        position: relative;
+        }
+
+
+
+        .header-container {
+        padding: 1rem 2rem;
+        cursor: pointer;
+        color: #fff;
+        transition: background 0.3s;
+        }
+
+        header nav ul li a {
+        text-decoration: none;
+        color: #b30606;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        position: sticky;
+        }
+
+        nav ul li {
+        color: #d3a625; /* dourado */
+        text-decoration: none;
+        margin: 0 25px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        header nav ul li:hover {
+        text-decoration: none;
+        color: #780606;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        background-color: #d3a625;
+        }
+
+
+        section {
+        display: none;
+        padding: 2rem;
+        animation: fadeIn 1s ease;
+        }
+
+        h2 {
+            color: #a01214;
+            text-align: center;
+            font-size: 35px;
+            margin-top: -620px;
+            animation: fadeInDown 2s ease;
+        }
+
+        p {
+            font-size: 25px;
+            color: #f7d0ce84;
+            flex: 1;
+        }
+
+        #aba1:checked ~ main #sec1,
+        #aba2:checked ~ main #sec2,
+        #aba3:checked ~ main #sec3,
+        #aba4:checked ~ main #sec4 {
+        display: block;
+        }
+        
+        img { 
+        margin-top: 100px;       
+        padding-left: 55%;
+        left: 1000px;
+        max-width: 300%;
+        position: relative;
+        left: 100px;
+        top: 250px;
+        height: auto;
+        opacity: 0;                     
+        transform: translateY(30px);      
+        animation: surgirMagicamente 1s ease forwards;
+        transition: all 0.4s ease;
+        }
+
+
+    .imagem-magica:hover {
+    transform: scale(1.05);          
+    box-shadow: 0 0 25px #ffd700,
+                0 0 40px #d3a625;    
+    cursor: pointer;
+    }
+
+        @keyframes surgirMagicamente {
+        to {
+            opacity: 1;
+            transform: translateY(0);       
+        }
+        }
+
+        .esquerda {
+        position: absolute;
+        text-align: left;
+        padding-right: 46%;
+        margin-top: 3px;
+        animation: fadeInDown 2s ease;
+        }
+
+
+
+        @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(20px);}
+        to {opacity: 1; transform: translateY(0);}
+        }
+
+        @keyframes fadeInDown {
+        from {opacity: 0; transform: translateY(-30px);}
+        to {opacity: 1; transform: translateY(0);}
+        }   
