@@ -10,3 +10,13 @@ body {
 a {
     font-size: var(--tamanhoLink);
 }
+
+@media screen and (max-width: 600px){
+    header {
+        position: fixed;
+        width: 100vh;
+    }
+    a {
+        font-size: var(--corfundo);
+    }
+}
