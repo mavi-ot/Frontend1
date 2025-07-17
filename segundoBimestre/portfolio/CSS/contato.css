@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #fdf6ff;
+    color: #4a235a;
+    background-image: url('https://i.pinimg.com/1200x/29/6c/be/296cbef94d89b3dc2ce932252a99dbc3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+}
+
+header {
+    background-color: #e8daef;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 2px solid #d2b4de;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #8e44ad;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #6c3483;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    background-color: #f5eef8;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #d2b4de;
+    color: #4a235a;
+}
+
+.contato-section {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fdf6ff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(172, 123, 236, 0.2);
+    text-align: center;
+}
+
+.contato-section h2 {
+    color: #6c3483;
+    margin-bottom: 10px;
+}
+
+.contato-section p {
+    color: #a569bd;
+    margin-bottom: 25px;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contato-form label {
+    text-align: left;
+    color: #5b2c6f;
+    font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+    padding: 12px;
+    border: 1px solid #d7bde2;
+    border-radius: 10px;
+    background-color: #ffffffee;
+    font-size: 1em;
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+    border-color: #bb8fce;
+    outline: none;
+}
+
+.contato-form button {
+    background-color: #d7bde2;
+    color: #4a235a;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato-form button:hover {
+    background-color: #c39bd3;
+}
+
+footer {
+    background-color: #e8daef;
+    color: #4a235a;
+    text-align: center;
+    padding: 25px;
+    margin-top: 60px;
+    border-top: 2px solid #d2b4de;
+}
+
+footer a {
+    color: #6c3483;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.small-note {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #5b2c6f;
+}
